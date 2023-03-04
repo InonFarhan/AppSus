@@ -1,0 +1,24 @@
+.note-list ul {
+    columns: 6 150px;
+    gap: 20px;
+    background-image: url('https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,q_auto:best,t_productPageHeroGalleryTransformation,w_auto/legacy_dam/en-us/S001389032/notepads-marquee-001?cb=792c4b28adf8c09b63aaa18fbdb8f84abb8f530f');
+    /* background-repeat: no-repeat; */
+    padding: 10px;
+    list-style-type: none;
+}
+.note-card{
+    break-inside: avoid;
+    margin-top: 20px;
+    padding: 5px;
+    background-color: #CEB1BE;
+    border: 2px solid black;
+}
+
+.icon{
+    cursor: pointer;  
+}
+
+input[type="color"] {
+    display: none;
+}
+

@@ -1,0 +1,33 @@
+form {
+    display: flex;
+    background-color: #F1E4E8;
+}
+
+input {
+    padding: 0.2em;
+    width: 71%;
+    text-align: center;
+    font-weight: 600;
+    font-size: 24px;
+    border-radius: 20px;
+    background-color: #E2DCDE;
+}
+
+.add-note{
+    border-radius: 10px;
+    background-color: #ecc4c5;
+    color: black;
+}
+
+.add-note:hover {
+    background-color: rgb(200, 245, 200);
+}
+
+.txt-box {
+    width: 70%;
+}
+
+.txt-box input:hover{
+    cursor: pointer;
+    
+}

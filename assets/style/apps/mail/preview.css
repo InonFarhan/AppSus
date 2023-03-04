@@ -1,0 +1,15 @@
+.isRead {
+    background-color: var(--clr5);
+}
+
+.isUnRead {
+    font-weight: bold;
+}
+
+.showTimeOnSmartphone {
+    font-size: xx-small;
+}
+
+.showNameOnSmartphone {
+    font-size: small;
+}

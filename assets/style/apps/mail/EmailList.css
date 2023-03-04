@@ -1,0 +1,60 @@
+.email-box {
+    text-align: start;
+    font-family: OpenSans;
+    margin: 0 auto;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+}
+
+.email-box td {
+    padding: 10px;
+}
+
+.email-box tr:hover {
+    background-color: var(--clr8);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.email-box .toolbar {
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    background-color: var(--clr5);
+    height: 87%;
+}
+
+.email-box .toolbar ul {
+    margin-block-start: 1em;
+}
+
+.email-box .toolbar li {
+    margin-block-start: 1em;
+    margin-inline-end: 1em;
+    border-top-right-radius: 555px;
+    border-bottom-right-radius: 555px;
+}
+
+.email-box .fa-solid {
+    cursor: pointer;
+}
+
+.email-box .fa-caret-right {
+    position: absolute;
+    top: 130px;
+    left: 5px;
+    font-size: x-large;
+}
+
+.email-box .fa-caret-left {
+    position: relative;
+    left: 10px;
+    font-size: x-large;
+}
+
+.email-box .toolbar li:hover {
+    background-color: var(--clr3);
+}
+
+.email-box .fa-solid {
+    animation: none;
+}

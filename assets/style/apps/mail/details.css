@@ -1,0 +1,12 @@
+.details-box {
+    margin-top: 10px;
+}
+
+.details-box .message {
+    text-align: start;
+}
+
+.details-box .back {
+    margin-inline-start: -15px;
+    margin-block-start: 0;
+}

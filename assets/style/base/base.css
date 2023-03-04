@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+html {}
+
+body {
+  margin: 0;
+  color: var(--clr4);
+  background-color: var(--clr6);
+  font-family: OpenSans;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 1em;
+}
+
+p {
+  margin: 0 0 1em;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+/* Dont stretch my Media */
+img,
+embed,
+video,
+object {
+  max-width: 80%
+}
+
+/* tap targets: */
+nav a,
+button {
+  min-width: 48px;
+  min-height: 48px;
+}
+
+/* Simple and useful CSS Debugging Technique */
+.debug * {
+  outline: 1px solid gold
+}
+
+li {
+  list-style: none;
+  cursor: pointer;
+}
+
+.fa-solid:hover {
+  animation: gro ease-out infinite;
+  animation-duration: 1s;
+}
+
+@keyframes gro {
+  to {
+    scale: 1.3;
+  }
+}

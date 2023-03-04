@@ -1,0 +1,21 @@
+.app-header {
+  background-color: var(--clr5);
+  padding: 1em;
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+
+.app-header .fa-solid,
+.apps .fa-solid {
+  cursor: pointer;
+  animation: none;
+}
+
+.apps {
+  padding: 0.3em;
+  position: absolute;
+  top: 100px;
+  width: 200px;
+  height: 20px;
+  background-color: var(--clr5);
+  border-radius: 20px;
+}
